@@ -6,9 +6,19 @@
 ## Tech Stack
 | Subject                                              | Description                                                          |
 |------------------------------------------------------|----------------------------------------------------------------------|
-| Data Pipeline ETL Porcess and Query                  | Python, MySQL                                                        |
+| Data Pipeline ETL Porcess Logic and Question Query   | Python, MySQL                                                        |
 | Database                                             | MySQL                                                                |
 | Data Pipeline Orchestrator                           | Dagster with Python                                                  |
+
+## Data Pipeline Architecture
+
+
+## Data Pipeline Orchestrator : Dagster
+-Overview: Dagster is an open-source orchestrator designed for ETL pipelines, offering an easy-to-use Python API.
+-Features:
+  -Direct integration with MySQL and other databases.
+  -Supports logging, monitoring, and error handling.
+  -Comes with a user-friendly web UI for monitoring pipelines.
 
 
 Procedure:
