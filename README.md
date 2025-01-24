@@ -64,7 +64,7 @@
      2. configure the dagster cloud ymal file for MySQL connection resource
 
           ![image](https://github.com/user-attachments/assets/96e1aced-ad4a-4e17-974f-9074d06b56c6)
-     3. navigate to folder github_ETL_pipeline and use command below to laucnh the Dagster local host webserver and open local host URL http://localhost:3000/
+     3. navigate to folder github_ETL_pipeline and use command below to launch the Dagster local host webserver(http://localhost:3000)
         > dagster dev
      4. In local host dagster UI, navigate to "assets/global asset lineage", after reload definition successfully click button materialize all then monitor the data pipeline refresh. 
 
@@ -82,7 +82,19 @@ of the week and by 3 hour blocks
 
 ## Query result
 1. Top 5 Committer
-2. Longest Streak Committer
-3. Heat map of number of commits count by all users by day of the week and by 3 hour blocks
 
+     ![image](https://github.com/user-attachments/assets/f5f319cc-0186-4e49-b4aa-7f4221e47073)
+
+2. Longest Streak Committer
+
+     ![image](https://github.com/user-attachments/assets/03be382a-8775-4331-824d-7b01ca4d98d9)
+
+3. Heat map of number of commits count by all users by day of the week and by 3 hour blocks
+   - SQL method
+     
+     ![image](https://github.com/user-attachments/assets/44626a1e-84cb-489a-a1e2-a1a74361a764)
+
+   - Python method (alternative)
+  
+   - 
 
