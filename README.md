@@ -9,10 +9,18 @@
 | Data Pipeline ETL Porcess Logic and Question Query   | Python, SQL                                                        |
 | Database                                             | MySQL                                                                |
 | Data Pipeline Orchestrator                           | Dagster with Python                                                  |
-
+> <br/>
 ## Data Pipeline Architecture
 ![Snipaste_2025-01-24_10-09-04](https://github.com/user-attachments/assets/042d38d9-8091-4b0d-91dd-0c955b185fcc)
-
+1. Source data : GitHub commits related data from GitHub API
+2. T1 layer - STG : staging layer which store the exact original data extract from source
+3. T1 layer - SRI : standardized raw integration layer which loaded from staging layer with different loading logic
+     - full dump    : replaces the entire dataset with fresh data from the source during each load
+     - delta        : appends only new data to the existing dataset without modifying previous data
+     - incremental  : processes only the changes (inserts, updates, and deletes) since the last load
+5. T2 layer : data which go though data integration, data transformation and logic mapping
+6. T3 layer : semantic data which go through certain logic for specific use case query
+> <br/>
 
 
 ## Data Pipeline Orchestrator : Dagster
@@ -21,7 +29,7 @@
   - Direct integration with MySQL and other databases.
   - Supports logging, monitoring, and error handling.
   - Comes with a user-friendly web UI for monitoring pipelines.
-
+> <br/>
 
 Procedure:
 1) Setup MYSQL server, create a new database and configure all those necessary table and view. (may refer to all the SQL scripts in path "github_ETL_pipeline\sql")
