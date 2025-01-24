@@ -11,7 +11,7 @@
 | Data Pipeline Orchestrator                           | Dagster with Python                                                  |
 
 ## Data Pipeline Architecture
-![Snipaste_2025-01-24_10-08-05](https://github.com/user-attachments/assets/7447323a-7e05-44ba-857f-887f5577f3de)
+
 
 
 ## Data Pipeline Orchestrator : Dagster
