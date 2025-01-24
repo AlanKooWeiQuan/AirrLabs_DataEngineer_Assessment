@@ -34,6 +34,9 @@
   - Direct integration with MySQL and other databases.
   - Supports logging, monitoring, and error handling.
   - Comes with a user-friendly web UI for monitoring pipelines.
+![image](https://github.com/user-attachments/assets/3b6661bb-e04c-4a20-b760-a63284698790)
+![image](https://github.com/user-attachments/assets/770b0fb2-e501-4be4-b434-ffc3e8ac198e)
+
 <br/>
 
 Procedure:
