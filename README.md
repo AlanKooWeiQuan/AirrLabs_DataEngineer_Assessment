@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/9a84f158-fbce-4ff3-a4c7-28c20c4fafa5)# A Simple ETL Data Pipeline for Github Porject's Commit History  
+# A Simple ETL Data Pipeline for Github Porject's Commit History  
 > _A project built with [Python], [SQL] & [Local MySQL Database]_.
 > <br/>
 > _Data Pipeline monitor with Dagster_.
