@@ -1,0 +1,8 @@
+storage:
+  mysql:
+    mysql_db:
+      username: root
+      password: password_example
+      hostname: 127.0.0.1
+      db_name: db_github_repo
+      port: 3306
