@@ -1,4 +1,14 @@
+# A Simple ETL Data Pipeline for Github Porject's Commit History  
+> _A project built with [Python], [SQL] & [Local MySQL Database]_.
+> <br/>
+> _Data Pipeline monitor with Dagster_.
 
+## Tech Stack
+| Subject                                              | Description                                                          |
+|------------------------------------------------------|----------------------------------------------------------------------|
+| Data Pipeline ETL Porcess and Query                  | Python, MySQL                                                        |
+| Database                                             | MySQL                                                                |
+| Data Pipeline Orchestrator                           | Dagster with Python                                                  |
 
 
 Procedure:
