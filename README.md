@@ -7,7 +7,7 @@
 ## Tech Stack
 | Subject                                              | Description                                                          |
 |------------------------------------------------------|----------------------------------------------------------------------|
-| Data Pipeline ETL Porcess Logic and Question Query   | Python, SQL                                                        |
+| Data Pipeline ETL Porcess  and Question Query        | Python, SQL                                                          |
 | Database                                             | MySQL                                                                |
 | Data Pipeline Orchestrator                           | Dagster with Python                                                  |
 <br/>
