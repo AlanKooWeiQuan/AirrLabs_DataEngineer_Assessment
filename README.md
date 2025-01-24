@@ -41,7 +41,7 @@
 
 <br/>
 
-Guide on Procedure:
+## Guide on Procedure:
 1) Setup MYSQL server, create a new database and configure all those necessary table and view. (may refer to all the SQL scripts in path "github_ETL_pipeline\sql")
 
 2) Configure both database and github credential json inside folder credential (for more security on sensitive data, in the future we can change to the method of export the credential into global environment using terminal command)
@@ -77,4 +77,12 @@ Guide on Procedure:
           ![image](https://github.com/user-attachments/assets/be6c022b-1937-4f59-bdca-4effd8984566)
      2. Run all the T3 view which query the top 5 committer, longest streak committer and number of commits count by all users by day
 of the week and by 3 hour blocks
+
+<br/>
+
+## Query result
+1. Top 5 Committer
+2. Longest Streak Committer
+3. Heat map of number of commits count by all users by day of the week and by 3 hour blocks
+
 
