@@ -95,6 +95,8 @@ of the week and by 3 hour blocks
      ![image](https://github.com/user-attachments/assets/44626a1e-84cb-489a-a1e2-a1a74361a764)
 
    - Python method (alternative)
-  
-   - 
+       > navigate to path "github_ETL_pipeline\github_ETL_pipeline" and run the heatmap.py python script
+       
+     ![image](https://github.com/user-attachments/assets/42fd0ddc-927e-4148-881e-47525c12302b)
+
 
