@@ -22,9 +22,9 @@
      - incremental  : processes only the changes (inserts, updates, and deletes) since the last load
 5. T2 layer : data which go though data integration, data transformation and logic mapping
 6. T3 layer : semantic data which go through certain logic for specific use case query
-7. From layer T1 until T3, each instance can have up to 3 diffrent object
-     - table     : a table which store the data
-     - vr view   : a view which direct view all column from table
+7. From layer T1 until T3, each instance can have up to 3 different object
+     - table     : a table which store the static data
+     - vr view   : a view which used to view all column data from table
      - txf view  : a procedure view which perform data processing and load into table
 <br/>
 
