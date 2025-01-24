@@ -1,4 +1,4 @@
-# A Simple ETL Data Pipeline to Fetch Github Porject's Commit History  
+# A Simple ETL Data Pipeline to Fetch Github Porject's Commit Data  
 > _A project built with [Python], [SQL] & [Local MySQL Database]_.
 > <br/>
 > _Data Pipeline monitor with Dagster_.
