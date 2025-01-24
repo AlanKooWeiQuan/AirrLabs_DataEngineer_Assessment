@@ -14,11 +14,11 @@
 
 
 ## Data Pipeline Orchestrator : Dagster
--Overview: Dagster is an open-source orchestrator designed for ETL pipelines, offering an easy-to-use Python API.
--Features:
-  -Direct integration with MySQL and other databases.
-  -Supports logging, monitoring, and error handling.
-  -Comes with a user-friendly web UI for monitoring pipelines.
+- Overview: Dagster is an open-source orchestrator designed for ETL pipelines, offering an easy-to-use Python API.
+- Features:
+  - Direct integration with MySQL and other databases.
+  - Supports logging, monitoring, and error handling.
+  - Comes with a user-friendly web UI for monitoring pipelines.
 
 
 Procedure:
